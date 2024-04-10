@@ -64,3 +64,6 @@ pipeline {
         }
     }
 }
+options {
+    skipDefaultCheckout(true)
+}
