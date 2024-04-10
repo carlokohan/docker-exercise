@@ -3,7 +3,7 @@ pipeline {
         imagename = "woootiness/exercise"
         dockerImage = ''
         containerName = 'my-container'
-        dockerHubCredentials = 'admin'
+        dockerHubCredentials = 'dockerHubCredentials'
         dockerImageTag = "${imagename}:${env.BUILD_NUMBER}"
     }
 
