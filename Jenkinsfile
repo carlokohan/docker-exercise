@@ -56,6 +56,3 @@ pipeline {
 
     }
 }
-options {
-    skipDefaultCheckout(true)
-}
